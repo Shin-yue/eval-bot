@@ -63,10 +63,7 @@ async def handle_eval(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     message = cast(Message, update.effective_message)
     
     if len(context.args) < 1:
-        await message.reply_text(
-            "To execute Python code, please include "
-            "the code you wish to run. Use the command /run followed by your code."
-        )
+        await message.reply_text("Use the command /run followed by your code.")
         return
         
     command = message.text.split(None, 1)[1]
