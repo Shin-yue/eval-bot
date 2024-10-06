@@ -1,0 +1,5 @@
+# Framework for building Telegram bots
+python-telegram-bot==21.6
+
+# Safe evaluation of Python expressions
+meval>=2.5

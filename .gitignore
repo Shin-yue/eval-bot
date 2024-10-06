@@ -1,0 +1,15 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+venv/
+env/
+
+logs/
+*.log
+
+*.env
+
+.DS_Store
+.idea/
+.vscode/
